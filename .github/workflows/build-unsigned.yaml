@@ -11,7 +11,6 @@ on:
       - '.gitmodules'
       - '**.md'
       - 'LICENSE'
-      - 'NOTICE'
   pull_request:
     paths-ignore:
       - '.github/**'
