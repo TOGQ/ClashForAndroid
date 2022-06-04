@@ -52,3 +52,8 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: --no-daemon app:assembleFossRelease
+      - name: Upload build reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-Uploa
+          path: app/build/outputs/apk/foss/release/
